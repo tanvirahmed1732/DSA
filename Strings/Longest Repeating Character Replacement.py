@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/longest-repeating-character-replacement/description/
 #two pointer approach
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
