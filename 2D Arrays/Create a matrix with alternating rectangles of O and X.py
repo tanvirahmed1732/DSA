@@ -1,3 +1,4 @@
+#https://www.geeksforgeeks.org/create-a-matrix-with-alternating-rectangles-of-0-and-x/
 row=5
 col=5
 ans = [["T"] * col for i in range(row)] 
