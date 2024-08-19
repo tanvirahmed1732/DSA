@@ -1,3 +1,4 @@
+#https://www.geeksforgeeks.org/permute-two-arrays-sum-every-pair-greater-equal-k/
 a=[2,1,3]
 b=[7,8,9]
 k=10
