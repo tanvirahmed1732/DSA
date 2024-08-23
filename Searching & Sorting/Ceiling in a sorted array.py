@@ -1,7 +1,6 @@
 #https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/
-
 def findceil(ar,l,r,x):
-    if x<=ar[l]: #if the x is less then or equal to the first element of the arr, then first element is the ceil
+    if x<=ar[l]: #if the x is less then or equal to the first element of the arr, then first element is the ceil.
         return ar[l]
     if x>ar[r]: #if x is greater than the elements present in the arr, then there is no ceil present
         return -1
@@ -15,10 +14,6 @@ def findceil(ar,l,r,x):
             l=mid+1 #if the x is in the right side, update the l pointer
     else: #after completing the loop, the l pointer will be the ceil
         return ar[l]
-
-
-
-
 
 ar=[1, 2, 8, 10, 10, 12, 19]
 x=20
